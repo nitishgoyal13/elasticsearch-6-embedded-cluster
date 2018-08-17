@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.elasticsearch</groupId>
+    <groupId>org.elasticsearch-6</groupId>
     <artifactId>elasticsearch-embedded-cluster</artifactId>
     <version>1.0-SNAPSHOT</version>
     <description>Embedded elasticsearch 6 cluster</description>
@@ -108,6 +108,26 @@
                         <goals>
                             <goal>test</goal>
                         </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.8</version>
+                <executions>
+                    <execution>
+                        <id>stop-es</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <target>
+                                <property name="target.dir" value="${project.build.directory}"/>
+                                <property name="elasticsearch.version" value="6.0.1"/>
+                                <ant antfile="it.xml" target="stop"/>
+                            </target>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>

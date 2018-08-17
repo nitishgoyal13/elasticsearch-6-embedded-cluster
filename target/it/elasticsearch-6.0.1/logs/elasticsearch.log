@@ -1,27 +1,27 @@
-[2018-08-16T20:49:54,185][INFO ][o.e.n.Node               ] [] initializing ...
-[2018-08-16T20:49:54,261][INFO ][o.e.e.NodeEnvironment    ] [Uese4kz] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [140.6gb], net total_space [233.5gb], types [apfs]
-[2018-08-16T20:49:54,262][INFO ][o.e.e.NodeEnvironment    ] [Uese4kz] heap size [989.8mb], compressed ordinary object pointers [true]
-[2018-08-16T20:49:54,263][INFO ][o.e.n.Node               ] node name [Uese4kz] derived from node ID [Uese4kz7T3qImQ3VohKBBg]; set [node.name] to override
-[2018-08-16T20:49:54,264][INFO ][o.e.n.Node               ] version[6.0.1], pid[51648], build[601be4a/2017-12-04T09:29:09.525Z], OS[Mac OS X/10.13.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_171/25.171-b11]
-[2018-08-16T20:49:54,264][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/Users/nitish.goyal/repo/gitlab/Elasticsearch-Embeded-Cluster/target/it/elasticsearch-6.0.1, -Des.path.conf=/Users/nitish.goyal/repo/gitlab/Elasticsearch-Embeded-Cluster/target/it/elasticsearch-6.0.1/config]
-[2018-08-16T20:49:55,194][INFO ][o.e.p.PluginsService     ] [Uese4kz] loaded module [aggs-matrix-stats]
-[2018-08-16T20:49:55,194][INFO ][o.e.p.PluginsService     ] [Uese4kz] loaded module [analysis-common]
-[2018-08-16T20:49:55,194][INFO ][o.e.p.PluginsService     ] [Uese4kz] loaded module [ingest-common]
-[2018-08-16T20:49:55,194][INFO ][o.e.p.PluginsService     ] [Uese4kz] loaded module [lang-expression]
-[2018-08-16T20:49:55,194][INFO ][o.e.p.PluginsService     ] [Uese4kz] loaded module [lang-mustache]
-[2018-08-16T20:49:55,194][INFO ][o.e.p.PluginsService     ] [Uese4kz] loaded module [lang-painless]
-[2018-08-16T20:49:55,194][INFO ][o.e.p.PluginsService     ] [Uese4kz] loaded module [parent-join]
-[2018-08-16T20:49:55,194][INFO ][o.e.p.PluginsService     ] [Uese4kz] loaded module [percolator]
-[2018-08-16T20:49:55,195][INFO ][o.e.p.PluginsService     ] [Uese4kz] loaded module [reindex]
-[2018-08-16T20:49:55,195][INFO ][o.e.p.PluginsService     ] [Uese4kz] loaded module [repository-url]
-[2018-08-16T20:49:55,195][INFO ][o.e.p.PluginsService     ] [Uese4kz] loaded module [transport-netty4]
-[2018-08-16T20:49:55,195][INFO ][o.e.p.PluginsService     ] [Uese4kz] loaded module [tribe]
-[2018-08-16T20:49:55,195][INFO ][o.e.p.PluginsService     ] [Uese4kz] no plugins loaded
-[2018-08-16T20:49:56,552][INFO ][o.e.d.DiscoveryModule    ] [Uese4kz] using discovery type [zen]
-[2018-08-16T20:49:57,132][INFO ][o.e.n.Node               ] initialized
-[2018-08-16T20:49:57,132][INFO ][o.e.n.Node               ] [Uese4kz] starting ...
-[2018-08-16T20:49:57,270][INFO ][o.e.t.TransportService   ] [Uese4kz] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9301}, {127.0.0.1:9300}
-[2018-08-16T20:49:57,409][WARN ][o.e.t.n.Netty4Transport  ] [Uese4kz] exception caught on transport layer [[id: 0xa420af02, L:/0:0:0:0:0:0:0:1:63867 - R:/0:0:0:0:0:0:0:1:9300]], closing connection
+[2018-08-17T06:24:24,343][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-08-17T06:24:24,434][INFO ][o.e.e.NodeEnvironment    ] [0kv9iQk] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [139.7gb], net total_space [233.5gb], types [apfs]
+[2018-08-17T06:24:24,434][INFO ][o.e.e.NodeEnvironment    ] [0kv9iQk] heap size [989.8mb], compressed ordinary object pointers [true]
+[2018-08-17T06:24:24,436][INFO ][o.e.n.Node               ] node name [0kv9iQk] derived from node ID [0kv9iQkdScCpPwyZxXv9Fw]; set [node.name] to override
+[2018-08-17T06:24:24,436][INFO ][o.e.n.Node               ] version[6.0.1], pid[53051], build[601be4a/2017-12-04T09:29:09.525Z], OS[Mac OS X/10.13.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_171/25.171-b11]
+[2018-08-17T06:24:24,436][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/Users/nitish.goyal/repo/gitlab/Elasticsearch-Embeded-Cluster/target/it/elasticsearch-6.0.1, -Des.path.conf=/Users/nitish.goyal/repo/gitlab/Elasticsearch-Embeded-Cluster/target/it/elasticsearch-6.0.1/config]
+[2018-08-17T06:24:25,382][INFO ][o.e.p.PluginsService     ] [0kv9iQk] loaded module [aggs-matrix-stats]
+[2018-08-17T06:24:25,382][INFO ][o.e.p.PluginsService     ] [0kv9iQk] loaded module [analysis-common]
+[2018-08-17T06:24:25,382][INFO ][o.e.p.PluginsService     ] [0kv9iQk] loaded module [ingest-common]
+[2018-08-17T06:24:25,382][INFO ][o.e.p.PluginsService     ] [0kv9iQk] loaded module [lang-expression]
+[2018-08-17T06:24:25,383][INFO ][o.e.p.PluginsService     ] [0kv9iQk] loaded module [lang-mustache]
+[2018-08-17T06:24:25,383][INFO ][o.e.p.PluginsService     ] [0kv9iQk] loaded module [lang-painless]
+[2018-08-17T06:24:25,383][INFO ][o.e.p.PluginsService     ] [0kv9iQk] loaded module [parent-join]
+[2018-08-17T06:24:25,383][INFO ][o.e.p.PluginsService     ] [0kv9iQk] loaded module [percolator]
+[2018-08-17T06:24:25,383][INFO ][o.e.p.PluginsService     ] [0kv9iQk] loaded module [reindex]
+[2018-08-17T06:24:25,383][INFO ][o.e.p.PluginsService     ] [0kv9iQk] loaded module [repository-url]
+[2018-08-17T06:24:25,383][INFO ][o.e.p.PluginsService     ] [0kv9iQk] loaded module [transport-netty4]
+[2018-08-17T06:24:25,383][INFO ][o.e.p.PluginsService     ] [0kv9iQk] loaded module [tribe]
+[2018-08-17T06:24:25,384][INFO ][o.e.p.PluginsService     ] [0kv9iQk] no plugins loaded
+[2018-08-17T06:24:26,911][INFO ][o.e.d.DiscoveryModule    ] [0kv9iQk] using discovery type [zen]
+[2018-08-17T06:24:27,455][INFO ][o.e.n.Node               ] initialized
+[2018-08-17T06:24:27,455][INFO ][o.e.n.Node               ] [0kv9iQk] starting ...
+[2018-08-17T06:24:27,611][INFO ][o.e.t.TransportService   ] [0kv9iQk] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9301}, {127.0.0.1:9300}
+[2018-08-17T06:24:27,751][WARN ][o.e.t.n.Netty4Transport  ] [0kv9iQk] exception caught on transport layer [[id: 0xa58bbb2a, L:/0:0:0:0:0:0:0:1:52669 - R:/0:0:0:0:0:0:0:1:9300]], closing connection
 java.io.IOException: Invalid string; unexpected character: 180 hex: b4
 	at org.elasticsearch.common.io.stream.StreamInput.readString(StreamInput.java:375) ~[elasticsearch-6.0.1.jar:6.0.1]
 	at org.elasticsearch.common.io.stream.StreamInput.readList(StreamInput.java:909) ~[elasticsearch-6.0.1.jar:6.0.1]
@@ -56,7 +56,7 @@ java.io.IOException: Invalid string; unexpected character: 180 hex: b4
 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.13.Final.jar:4.1.13.Final]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
-[2018-08-16T20:49:58,352][WARN ][o.e.t.n.Netty4Transport  ] [Uese4kz] exception caught on transport layer [[id: 0x8d456fca, L:/0:0:0:0:0:0:0:1:63883 - R:/0:0:0:0:0:0:0:1:9300]], closing connection
+[2018-08-17T06:24:28,668][WARN ][o.e.t.n.Netty4Transport  ] [0kv9iQk] exception caught on transport layer [[id: 0x1e3dfe5a, L:/0:0:0:0:0:0:0:1:52683 - R:/0:0:0:0:0:0:0:1:9300]], closing connection
 java.io.IOException: Invalid string; unexpected character: 180 hex: b4
 	at org.elasticsearch.common.io.stream.StreamInput.readString(StreamInput.java:375) ~[elasticsearch-6.0.1.jar:6.0.1]
 	at org.elasticsearch.common.io.stream.StreamInput.readList(StreamInput.java:909) ~[elasticsearch-6.0.1.jar:6.0.1]
@@ -91,7 +91,7 @@ java.io.IOException: Invalid string; unexpected character: 180 hex: b4
 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.13.Final.jar:4.1.13.Final]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
-[2018-08-16T20:49:59,326][WARN ][o.e.t.n.Netty4Transport  ] [Uese4kz] exception caught on transport layer [[id: 0xa301563f, L:/0:0:0:0:0:0:0:1:63897 - R:/0:0:0:0:0:0:0:1:9300]], closing connection
+[2018-08-17T06:24:29,690][WARN ][o.e.t.n.Netty4Transport  ] [0kv9iQk] exception caught on transport layer [[id: 0x33a72cde, L:/0:0:0:0:0:0:0:1:52692 - R:/0:0:0:0:0:0:0:1:9300]], closing connection
 java.io.IOException: Invalid string; unexpected character: 180 hex: b4
 	at org.elasticsearch.common.io.stream.StreamInput.readString(StreamInput.java:375) ~[elasticsearch-6.0.1.jar:6.0.1]
 	at org.elasticsearch.common.io.stream.StreamInput.readList(StreamInput.java:909) ~[elasticsearch-6.0.1.jar:6.0.1]
@@ -126,8 +126,8 @@ java.io.IOException: Invalid string; unexpected character: 180 hex: b4
 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) [netty-transport-4.1.13.Final.jar:4.1.13.Final]
 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-common-4.1.13.Final.jar:4.1.13.Final]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
-[2018-08-16T20:50:00,324][INFO ][o.e.c.s.MasterService    ] [Uese4kz] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {Uese4kz}{Uese4kz7T3qImQ3VohKBBg}{kQt7VevVRzKROAUy6hQI0w}{127.0.0.1}{127.0.0.1:9300}
-[2018-08-16T20:50:00,328][INFO ][o.e.c.s.ClusterApplierService] [Uese4kz] new_master {Uese4kz}{Uese4kz7T3qImQ3VohKBBg}{kQt7VevVRzKROAUy6hQI0w}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {Uese4kz}{Uese4kz7T3qImQ3VohKBBg}{kQt7VevVRzKROAUy6hQI0w}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
-[2018-08-16T20:50:00,348][INFO ][o.e.h.n.Netty4HttpServerTransport] [Uese4kz] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9201}, {127.0.0.1:9200}
-[2018-08-16T20:50:00,348][INFO ][o.e.n.Node               ] [Uese4kz] started
-[2018-08-16T20:50:00,350][INFO ][o.e.g.GatewayService     ] [Uese4kz] recovered [0] indices into cluster_state
+[2018-08-17T06:24:30,674][INFO ][o.e.c.s.MasterService    ] [0kv9iQk] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {0kv9iQk}{0kv9iQkdScCpPwyZxXv9Fw}{VRXsxOfQTgCFR5R0zDL0rA}{127.0.0.1}{127.0.0.1:9300}
+[2018-08-17T06:24:30,679][INFO ][o.e.c.s.ClusterApplierService] [0kv9iQk] new_master {0kv9iQk}{0kv9iQkdScCpPwyZxXv9Fw}{VRXsxOfQTgCFR5R0zDL0rA}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {0kv9iQk}{0kv9iQkdScCpPwyZxXv9Fw}{VRXsxOfQTgCFR5R0zDL0rA}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-08-17T06:24:30,695][INFO ][o.e.h.n.Netty4HttpServerTransport] [0kv9iQk] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9201}, {127.0.0.1:9200}
+[2018-08-17T06:24:30,695][INFO ][o.e.n.Node               ] [0kv9iQk] started
+[2018-08-17T06:24:30,697][INFO ][o.e.g.GatewayService     ] [0kv9iQk] recovered [0] indices into cluster_state

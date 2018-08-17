@@ -3,6 +3,6 @@
 <target name="main">
   <property name="target.dir" value="/Users/nitish.goyal/repo/gitlab/Elasticsearch-Embeded-Cluster/target"/>
   <property name="elasticsearch.version" value="6.0.1"/>
-  <ant antfile="it.xml" target="start"/>
+  <ant antfile="it.xml" target="stop"/>
 </target>
 </project>
